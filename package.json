@@ -1,0 +1,20 @@
+{
+  "name": "school_of_future",
+  "version": "1.0.0",
+  "description": "future school web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "any",
+    "keyword"
+  ],
+  "author": "shubham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,443 @@
+<% include ./partials/header %>
+
+<script async="" src="/analytics.js.download"></script><script type="text/javascript" src="/C25hvyXuDne-4fHXny-XUYr1CyaYiD-i01knPZMcG93feCjffFHN4UJLFRbh52jhWDmKjQwXFe9U5ejuwQw3ZRwoFhJ3FRMXZg79MPG0ShFGdhNCdhZciWsuSc90SaBujW48Sagyjh90jhNlOeUzjhBC-eNDifUDjhyzdhUzZcZuiYmkZPoT.download"></script>
+<style type="text/css">@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/a?subset_id=2&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}</style><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-ce36c8000dd19b26cc2f-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script crossorigin="anonymous" src="/common-ce36c8000dd19b26cc2f-min.en-US.js.download"></script><script crossorigin="anonymous" src="/performance-6ca9bb696d9e403d3756-min.en-US.js.download" defer=""></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//static.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/announcement-bar-64f47cdb0caf80530dd5-min.en-US.js"},"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-a57b8f3aa31918104f57a068648fbc63-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-d033953ccb76f2e46d3c-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-dae61b6efffd234d480e-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-9acef2d24c6a994fca1a8a82e99e19c3-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-bd7d7198e45465a001ca-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-27bf01fd8fa88aac72dc-min.en-US.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-a7b26c9ae88684f76d210b61d0b0d848-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-e9f04e7b40d7a4210062-min.en-US.js"},"squarespace-commerce-cart":{"js":"//static.squarespace.com/universal/scripts-compressed/commerce-cart-d1f26af8022df69512ff-min.en-US.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-7d0827ef14cce0b773fcd1eee28fbdee-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-549f610665c015c8ab76-min.en-US.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-9acef2d24c6a994fca1a8a82e99e19c3-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-e20c06e8725988c9d482-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//static.squarespace.com/universal/scripts-compressed/form-rendering-utils-a6b44bbf4c3bcc1b776f-min.en-US.js"},"squarespace-forms":{"css":"//static.squarespace.com/universal/styles-compressed/forms-ac7917c174031c937e3df4b3a2005b34-min.css","js":"//static.squarespace.com/universal/scripts-compressed/forms-9b14c6c59de306aa2eb3-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/gallery-collection-list-7648566bab72920ef13d-min.en-US.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-5fff9f87507526b7fd4d-min.en-US.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-dced14fb35881e9638d2-min.en-US.js"},"squarespace-popup-overlay":{"css":"//static.squarespace.com/universal/styles-compressed/popup-overlay-7b48efeab9b323dfdb524a256cf61595-min.css","js":"//static.squarespace.com/universal/scripts-compressed/popup-overlay-61b18fad49b8f35f8e13-min.en-US.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-bc8694b75a40e4bd969b662b80ebafb5-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-d9d6399858c19ce3ae90-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-ee37dc3f914090840b53-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-9b19e83a4711c984e0d4-min.en-US.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-ea3e98edb84abbc5e758884f69149027-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-e5dd1827053bd57921d7-min.en-US.js"},"squarespace-search-preview":{"js":"//static.squarespace.com/universal/scripts-compressed/search-preview-2329dc1a66d72291a877-min.en-US.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-25e1cd56ca69c6c44cd8-min.en-US.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-310d0b18e112f708f91339b11fd55714-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-82196f85351206c4df8e-min.en-US.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-26106f808f7e9c739a7f862a408ed039-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-32faafb7c943ece8d7fc-min.en-US.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-990917d840a2975041a1-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//static.squarespace.com/universal/styles-compressed/website-overlays-manager-df9cddfe3eca22764d10fd6fc4f4ad73-min.css","js":"//static.squarespace.com/universal/scripts-compressed/website-overlays-manager-8a2457ae596f0d6083f0-min.en-US.js"}},"pageType":1,"website":{"id":"5ba344e18f5130f397b0604d","identifier":"schooloffuture","websiteType":1,"contentModifiedOn":1559226506069,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"Asia/Kolkata","machineTimeZoneOffset":19800000,"timeZoneOffset":19800000,"timeZoneAbbr":"IST","siteTitle":"School of Future","fullSiteTitle":"About Us \u2014 School of Future","siteTagLine":"Future proofing students","siteDescription":"","logoImageId":"5bf8f69d352f534626c6dfd5","socialLogoImageId":"5bf8f691f950b75bc4baa471","shareButtonOptions":{"2":true,"7":true,"1":true,"8":true,"5":true,"3":true,"4":true,"6":true},"logoImageUrl":"//static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5bf8f69d352f534626c6dfd5/1559226506069/","socialLogoImageUrl":"//static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5bf8f691f950b75bc4baa471/1559226506069/","authenticUrl":"https://www.schooloffuture.in","internalUrl":"https://schooloffuture.squarespace.com","baseUrl":"https://www.schooloffuture.in","primaryDomain":"www.schooloffuture.in","sslSetting":3,"isHstsEnabled":true,"socialAccounts":[{"serviceId":32,"screenname":"Medium","addedOn":1537438924394,"profileUrl":"https://medium.com/@aditiagrawal_49691","iconEnabled":true,"serviceName":"medium"},{"serviceId":10,"userId":"9233792679","userName":"_schooloffuture","screenname":"School Of Future","addedOn":1542025856675,"profileUrl":"http://instagram.com/_schooloffuture","iconUrl":"https://scontent.cdninstagram.com/vp/94c918e9ee974f90e934a3d152998bd7/5C83BA5B/t51.2885-19/s150x150/43693998_323447135101516_1327812731813756928_n.jpg","collectionId":"5be9728075f9ee379f4fe6e1","iconEnabled":true,"serviceName":"instagram"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":true,"showOwnerLogin":false},"websiteSettings":{"id":"5ba344e18f5130f397b0604f","websiteId":"5ba344e18f5130f397b0604d","type":"Personal","subjects":[],"country":"IN","state":"DL","simpleLikingEnabled":true,"mobileInfoBarSettings":{"style":1,"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"paymentSettings":{},"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"<p>By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>","cookieBannerTheme":"DARK","cookieBannerVariant":"BAR","cookieBannerPosition":"BOTTOM","cookieBannerCtaVariant":"ICON","cookieBannerCtaText":"OK"},"websiteCloneable":false,"collection":{"title":"About Us","id":"5c4f00a988251b8420b6563b","fullUrl":"/about-us","type":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","banner-slideshow-controls":"Arrows","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Grid","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"280px","gridSpacing":"10px","logoContainerWidth":"285px","product-gallery-auto-crop":"false","product-image-auto-crop":"true","siteTitleContainerWidth":"265px"},"templateId":"52a74dafe4b073a80cd253c5","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","betaFeatureFlags":["ORDERS-SERVICE-check-digital-good-access-with-service","ORDERS-SERVICE-reset-digital-goods-access-with-service","dg_downloads_from_fastly","product-retriever-v2-enabled","domain_locking_via_registrar_service","image_editor_experimental_features","domain_deletion_via_registrar_service","domain_info_via_registrar_service","new_commerce_checkout_bundle","domain_renewal_via_registrar_service","add_new_page_alt","image_picker"],"impersonatedSession":false,"tzData":{"zones":[[330,null,"IST",null]],"rules":{}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.schooloffuture.in/about-us?format=RSS">
+<script type="application/ld+json">{"url":"https://www.schooloffuture.in","name":"School of Future","description":"","image":"//static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5bf8f69d352f534626c6dfd5/1559226506069/","@context":"http://schema.org","@type":"WebSite"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5ba344e18f5130f397b0604d/32/52a74dafe4b073a80cd253c5/5ba3492b88251bd3cdb4c31e/1021-05142015/1559226180811/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="/site.css"><!-- <![endif]-->
+<script>Static.COOKIE_BANNER_CAPABLE = true;</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-139016946-2', 'auto');ga('send', 'pageview');</script><!-- End of Squarespace Headers -->
+    <script>/* Must be below squarespace-headers */(function(){var e='ontouchstart'in window||navigator.msMaxTouchPoints;var t=document.documentElement;if(!e&&t){t.className=t.className.replace(/touch-styles/,'')}})()
+    </script>
+  <style type="text/css">.disable-hover:not(.sqs-layout-editing), .disable-hover:not(.sqs-layout-editing) * { pointer-events: none  ; }</style></head>
+<style>
+.xy {
+  background-color: white;
+}
+</style>
+  <div id="collection-5c4f00a988251b8420b6563b" class="transparent-header enable-nav-button nav-button-style-outline nav-button-corner-style-pill banner-button-style-outline banner-button-corner-style-square banner-slideshow-controls-arrows meta-priority-category center-entry-title--meta  hide-list-entry-footer    hide-blog-sidebar center-navigation--info  xy   event-thumbnails event-thumbnail-size-32-standard event-date-label event-date-label-time event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link    gallery-design-grid aspect-ratio-auto lightbox-style-light gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square  show-product-price show-product-item-nav product-social-sharing newsletter-style-dark  opentable-style-light small-button-style-solid small-button-shape-pill medium-button-style-outline medium-button-shape-square large-button-style-outline large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-center button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-5c4f00a988251b8420b6563b collection-type-index collection-layout-default view-list mobile-style-available"><div class="show-on-scroll-wrapper" id="showOnScrollWrapper">
+      
+        
+          
+            
+            
+          
+        
+      
+
+
+      
+      
+      
+
+      <main id="page" role="main">
+        
+        <!--
+        --><!--
+        --><div id="content" class="main-content" data-content-field="main-content" data-collection-id="5c4f00a988251b8420b6563b">
+         <!-- Create index sections -->
+
+  
+  <div id="team" class="index-section" data-url-id="team" data-collection-id="5c42cf93898583fc9a78ec13" data-edit-main-image="Banner">
+    <div class="promoted-gallery-wrapper"></div>
+    
+      
+    
+
+    <div class="index-section-wrapper page-content" id="yui_3_17_2_1_1559818766272_134">
+      <div class="content-inner has-content" data-content-field="main-content" id="yui_3_17_2_1_1559818766272_133">
+        <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1558694690614" id="page-5c42cf93898583fc9a78ec13"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-65dd5f76427e645d3daf"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-10 span-10"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-696d343ba56d34763be3"><div class="sqs-block-content"><h1 style="text-align:center;white-space:pre-wrap;">Our Team</h1><p style="text-align:center;white-space:pre-wrap;" class="" data-rte-preserve-empty="true"></p></div></div></div><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-21ab36e71a7291887151"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row" id="yui_3_17_2_1_1559818766272_132"><div class="col sqs-col-6 span-6" id="yui_3_17_2_1_1559818766272_131"><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="75" data-block-type="5" id="block-82f5cd6db0eaacf92e1e"><div class="sqs-block-content" id="yui_3_17_2_1_1559818766272_130">
+
+  
+
+    
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-fade-in individual-animation-none individual-text-animation-none animation-loaded" id="yui_3_17_2_1_1559818766272_129">
+      
+        <div class="intrinsic" style="max-width:2500.0px;" id="yui_3_17_2_1_1559818766272_128">
+          
+            <div style="padding-bottom: 75%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio" data-description="" id="yui_3_17_2_1_1559818766272_127">
+              <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c42cf93898583fc9a78ec0f/1537521735034/AA+1.jpg" alt="AA 1.jpg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c42cf93898583fc9a78ec0f/1537521735034/AA+1.jpg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c42cf93898583fc9a78ec0f/1537521735034/AA+1.jpg" data-image-dimensions="2500x1968" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5c42cf93898583fc9a78ec0f" data-type="image" style="left: 0%; top: -2.44454%; width: 100%; height: 104.889%; position: absolute;" alt="AA 1.jpg" data-image-resolution="500w" src="/AA+1.jpg">
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-a0bd68329ea53b162ccf"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Aditi Agrawal, founder</h3><p class="" style="white-space:pre-wrap;">Aditi is an educator,&nbsp;who&nbsp;started her first NGO when she was 17 and grew it to over 500 volunteers working on more than 20 live projects. She has been working in education for 7+ years and has lived in India, Kenya, various countries of South East Asia, and Australia.&nbsp;She is passionate about enabling each and every child to have access to an education that allows them to thrive in tomorrow’s world. She loves travelling, food, and old buildings! </p><p class="" style="white-space:pre-wrap;">Find out more about her story <a href="http://aditi.strikingly.com/" target="_blank">here</a>. </p></div></div></div><div class="col sqs-col-6 span-6" id="yui_3_17_2_1_1559818766272_153"><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="75.05422993492408" data-block-type="5" id="block-yui_3_17_2_1_1547882407027_10056"><div class="sqs-block-content" id="yui_3_17_2_1_1559818766272_152">
+
+  
+
+    
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" id="yui_3_17_2_1_1559818766272_151">
+      
+        <div class="intrinsic" style="max-width:605.0px;" id="yui_3_17_2_1_1559818766272_150">
+          
+            <div style="padding-bottom: 75.0542%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio" data-description="" id="yui_3_17_2_1_1559818766272_149">
+              <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c42d0f70e2e72c267c25fc0/1547882752135/Kelsey%252BRoot" alt="Kelsey%2BRoot" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c42d0f70e2e72c267c25fc0/1547882752135/Kelsey%252BRoot" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c42d0f70e2e72c267c25fc0/1547882752135/Kelsey%252BRoot" data-image-dimensions="605x483" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5c42d0f70e2e72c267c25fc0" data-type="image" style="left: 0%; top: -3.18718%; width: 100%; height: 106.374%; position: absolute;" alt="Kelsey%2BRoot" data-image-resolution="500w" src="/Kelsey%2BRoot">
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1547882407027_37159"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Kelsey Root, Content Lead</h3><p class="" style="white-space:pre-wrap;">Kelsey was born and raised in Detroit, Michigan and has taught high school students for four years. She has seen the inadequacies in education and is excited to create a program that challenges students, preparing them for their future careers and enabling them to see their talents and find their personal drive.&nbsp;She feels it is our human responsibility to learn from every person.&nbsp;She is passionate about her own writing and is grateful for the power of music and art.&nbsp;</p><p class="" style="white-space:pre-wrap;">Find out more about her story <a href="https://www.linkedin.com/in/kelsey-root-6a8843a6/" target="_blank">here</a>. </p></div></div></div></div><div class="row sqs-row" id="yui_3_17_2_1_1559818766272_172"><div class="col sqs-col-6 span-6" id="yui_3_17_2_1_1559818766272_171"><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="75.48806941431671" data-block-type="5" id="block-yui_3_17_2_1_1547882407027_17928"><div class="sqs-block-content" id="yui_3_17_2_1_1559818766272_170">
+
+  
+
+    
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" id="yui_3_17_2_1_1559818766272_169">
+      
+        <div class="intrinsic" style="max-width:864.0px;" id="yui_3_17_2_1_1559818766272_168">
+          
+            <div style="padding-bottom: 75.4881%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio" data-description="" id="yui_3_17_2_1_1559818766272_167">
+              <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c435be47924e87e3c5e6745/1547918323415/Team_Poornima.jpg" alt="Team_Poornima.jpg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c435be47924e87e3c5e6745/1547918323415/Team_Poornima.jpg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5c435be47924e87e3c5e6745/1547918323415/Team_Poornima.jpg" data-image-dimensions="864x691" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5c435be47924e87e3c5e6745" data-type="image" style="left: 0%; top: -2.99541%; width: 100%; height: 105.991%; position: absolute;" alt="Team_Poornima.jpg" data-image-resolution="500w" src="/Team_Poornima.jpg">
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1547918234618_12166"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Poornima subramaniam, designer</h3><p class="" style="white-space:pre-wrap;">Poornima is a design student trying to conquer the world. Born on the sunny morning of the 12th of November, she was a clumsy little baby with big beady eyes, taking in the world. Twenty years later, she’s still as clumsy as ever. She dreams of creating magical worlds with fantastical creatures. You would probably find her playing with dogs, stuffing food down her throat or sitting with her sketchbook and earphones, belting out the classics. She considers herself to be a music aficionado, a closet dancer and an expressive artist.</p><p class="" style="white-space:pre-wrap;">Find out more about her story <a href="https://www.behance.net/poornimaar7738" target="_blank">here</a>.</p></div></div></div><div class="col sqs-col-6 span-6" id="yui_3_17_2_1_1559818766272_190"><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="75.45638945233266" data-block-type="5" id="block-yui_3_17_2_1_1548687464502_11261"><div class="sqs-block-content" id="yui_3_17_2_1_1559818766272_189">
+
+  
+
+    
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" id="yui_3_17_2_1_1559818766272_188">
+      
+        <div class="intrinsic" style="max-width:746.0px;" id="yui_3_17_2_1_1559818766272_187">
+          
+            <div style="padding-bottom: 75.4564%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio" data-description="" id="yui_3_17_2_1_1559818766272_186">
+              <noscript><img src="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1558694467843-P208A19OI1TPDBN61TBX/ke17ZwdGBToddI8pDm48kFr7RL0YmwShVDdPjtNGtahZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwb6I1TzICOD7ZodolKMPwsXyGhpwsXPIpTDnXu56KXAXFlnO8m0y--a5HT3bKWHh0/Team_Sanjana.jpeg" alt="Team_Sanjana.jpeg" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1558694467843-P208A19OI1TPDBN61TBX/ke17ZwdGBToddI8pDm48kFr7RL0YmwShVDdPjtNGtahZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwb6I1TzICOD7ZodolKMPwsXyGhpwsXPIpTDnXu56KXAXFlnO8m0y--a5HT3bKWHh0/Team_Sanjana.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1558694467843-P208A19OI1TPDBN61TBX/ke17ZwdGBToddI8pDm48kFr7RL0YmwShVDdPjtNGtahZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwb6I1TzICOD7ZodolKMPwsXyGhpwsXPIpTDnXu56KXAXFlnO8m0y--a5HT3bKWHh0/Team_Sanjana.jpeg" data-image-dimensions="746x939" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5ce7ca42e79c702e5662c985" data-type="image" style="left: 0%; top: -33.4067%; width: 100%; height: 166.813%; position: absolute;" alt="Team_Sanjana.jpeg" data-image-resolution="500w" src="/Team_Sanjana.jpeg">
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1548687464502_31190"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Sanjana khemani, Operations and marketing intern</h3><p class="" style="white-space:pre-wrap;">A recent high school graduate, Sanjana’s brimming with passion for creating a better student culture in India. She plans to pursue Political Science and Sociology in college and aspires to someday work for organisations like the International Court of Justice. She loves keeping herself busy around the clock, always experimenting with new activities and things to do. Most content in her own creative space, you’d probably find her sipping on strong coffee, humming John Mayer songs and scribbling words into her old beat up journal in her free time.</p></div></div></div></div></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="joinus" class="index-section" data-url-id="joinus" data-collection-id="5bed59d5cd8366ed48735db2" data-edit-main-image="Banner">
+    <div class="promoted-gallery-wrapper"></div>
+    
+      
+        <div class="banner-thumbnail-wrapper has-description" data-content-field="main-image">
+          <div class="color-overlay"></div>
+          <figure id="thumbnail" class="loading content-fill" style="overflow: hidden;">
+            <img data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5bf8fa3e4d7a9c8adb20f7b3/1543043650406/WhatsApp+Image+2018-11-24+at+11.29.50.jpeg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/t/5bf8fa3e4d7a9c8adb20f7b3/1543043650406/WhatsApp+Image+2018-11-24+at+11.29.50.jpeg" data-image-dimensions="1280x1072" data-image-focal-point="0.5,0.5" data-parent-ratio="4.4" style="font-size: 0px; left: 0px; top: -409.894px; width: 1349px; height: 1129.79px; position: relative;" alt="WhatsApp Image 2018-11-24 at 11.29.50.jpeg" class="" data-image-resolution="1500w" src="/WhatsApp+Image+2018-11-24+at+11.29.50.jpeg">
+          </figure>
+          <div class="desc-wrapper" data-content-field="description"><p class="" style="white-space:pre-wrap;">Massive Change</p><p class="" style="white-space:pre-wrap;" id="yui_3_17_2_1_1559818766272_52"><strong data-shrink-original-size="86">Starts with you</strong></p><p class="" style="white-space:pre-wrap;">Join our team!</p></div>
+        </div>
+      
+    
+
+    <div class="index-section-wrapper page-content" id="yui_3_17_2_1_1559818766272_388">
+      <div class="content-inner has-content" data-content-field="main-content" id="yui_3_17_2_1_1559818766272_387">
+        <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1559226506062" id="page-5bed59d5cd8366ed48735db2"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-735760048caa4507cbce"><div class="sqs-block-content"><h2 style="text-align:center;white-space:pre-wrap;">We are looking for amazing people to join us on our mission to future-proof students.</h2><p class="" style="white-space:pre-wrap;">We love talking to people! Kelsey and Aditi actually met on angelList - so we definitely believe in web fairytales. If you feel you have the fire to work with us on this wicked problem - reach out.</p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1542282183405_29914"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1542950742787_6810"><div class="sqs-block-content"><h3 style="text-align:center;white-space:pre-wrap;">full-stack engineer</h3><p class="" style="white-space:pre-wrap;">How can we build a platform where children are able to access future of work skills while becoming an active part of the SoF community?</p></div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1542950742787_10161"><div class="sqs-block-content" id="yui_3_17_2_1_1559818766272_207">
+<div class="sqs-block-button-container--center" data-alignment="center" data-button-size="small" id="yui_3_17_2_1_1559818766272_206">
+	<a href="https://goo.gl/bjbxsm" class="sqs-block-button-element--small sqs-block-button-element" target="_blank" data-initialized="true">Apply now</a>
+</div></div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1557946702525_15195"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row" id="yui_3_17_2_1_1559818766272_386"><div class="col sqs-col-12 span-12" id="yui_3_17_2_1_1559818766272_385"><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1542950742787_19337"><div class="sqs-block-content"><hr></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1543042763536_44664"><div class="sqs-block-content"><h1 style="text-align:center;white-space:pre-wrap;">Our community!</h1></div></div><div class="sqs-block gallery-block sqs-block-gallery" data-block-json="{&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:null,&quot;newWindow&quot;:false,&quot;active-alignment&quot;:&quot;center&quot;,&quot;aspect-ratio&quot;:&quot;square&quot;,&quot;aspectRatio&quot;:null,&quot;auto-crop&quot;:true,&quot;autoplay&quot;:false,&quot;blockAnimation&quot;:&quot;none&quot;,&quot;collectionId&quot;:&quot;5bf8f778b8a045b4c01eceef&quot;,&quot;controls&quot;:false,&quot;design&quot;:&quot;grid&quot;,&quot;lightbox&quot;:true,&quot;lightboxTheme&quot;:&quot;dark&quot;,&quot;padding&quot;:20,&quot;show-meta&quot;:true,&quot;show-meta-basic&quot;:true,&quot;show-meta-only-title&quot;:false,&quot;show-meta-only-description&quot;:false,&quot;square-thumbs&quot;:true,&quot;thumbnails-per-row&quot;:4,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;5bf8f778b8a045b4c01eceef&quot;}" data-block-type="8" id="block-yui_3_17_2_1_1543042763536_7635"><div class="sqs-block-content" id="yui_3_17_2_1_1559818766272_384">
+
+
+  
+
+  
+
+
+<div class="
+  sqs-gallery-container
+  sqs-gallery-block-grid
+  sqs-gallery-aspect-ratio-square
+  sqs-gallery-thumbnails-per-row-4
+  
+  
+
+  
+    
+    
+  
+  sqs-gallery-block-show-meta
+  
+  
+
+  
+  
+
+  
+  block-animation-none
+  clear" id="yui_3_17_2_1_1559818766272_213">
+  <div class="sqs-gallery sqs-gallery-design-grid" id="yui_3_17_2_1_1559818766272_230">
+    
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_269">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550218032626-IHEINMXNULC1D19Q7DTY/ke17ZwdGBToddI8pDm48kM82AJWYvkCeWKmEBR6CkYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTMn7ubRHcADuR2SymJHoagec6Li5acJ_IAV7JIX2_i4zncOrN4l9H5KY7sv_dTdmQ/tb4.jpg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_390">
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550218032626-IHEINMXNULC1D19Q7DTY/ke17ZwdGBToddI8pDm48kM82AJWYvkCeWKmEBR6CkYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTMn7ubRHcADuR2SymJHoagec6Li5acJ_IAV7JIX2_i4zncOrN4l9H5KY7sv_dTdmQ/tb4.jpg" alt="tb4.jpg" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550218032626-IHEINMXNULC1D19Q7DTY/ke17ZwdGBToddI8pDm48kM82AJWYvkCeWKmEBR6CkYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTMn7ubRHcADuR2SymJHoagec6Li5acJ_IAV7JIX2_i4zncOrN4l9H5KY7sv_dTdmQ/tb4.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550218032626-IHEINMXNULC1D19Q7DTY/ke17ZwdGBToddI8pDm48kM82AJWYvkCeWKmEBR6CkYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTMn7ubRHcADuR2SymJHoagec6Li5acJ_IAV7JIX2_i4zncOrN4l9H5KY7sv_dTdmQ/tb4.jpg" data-image-dimensions="2499x1546" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5c6672a0ec212dfc87bec895" data-type="image" data-parent-ratio="1.0" style="left: -73.9715px; top: 0px; width: 387.943px; height: 240px; position: relative;" alt="tb4.jpg" data-image-resolution="500w" src="/tb4.jpg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_270">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f778032be49110031fb2/1543042940532/WhatsApp+Image+2018-11-24+at+11.32.30.jpeg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_396">
+                  <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f778032be49110031fb2/1543042940532/WhatsApp+Image+2018-11-24+at+11.32.30.jpeg" alt="WhatsApp Image 2018-11-24 at 11.32.30.jpeg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f778032be49110031fb2/1543042940532/WhatsApp+Image+2018-11-24+at+11.32.30.jpeg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f778032be49110031fb2/1543042940532/WhatsApp+Image+2018-11-24+at+11.32.30.jpeg" data-image-dimensions="1280x1224" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bf8f778032be49110031fb2" data-type="image" data-parent-ratio="1.0" style="left: -5.4902px; top: 0px; width: 250.98px; height: 240px; position: relative;" alt="WhatsApp Image 2018-11-24 at 11.32.30.jpeg" data-image-resolution="300w" src="/WhatsApp+Image+2018-11-24+at+11.32.30.jpeg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_271">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f77b352f534626c6e69c/1543042944035/WhatsApp+Image+2018-11-24+at+11.33.48.jpeg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_402">
+                  <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f77b352f534626c6e69c/1543042944035/WhatsApp+Image+2018-11-24+at+11.33.48.jpeg" alt="WhatsApp Image 2018-11-24 at 11.33.48.jpeg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f77b352f534626c6e69c/1543042944035/WhatsApp+Image+2018-11-24+at+11.33.48.jpeg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f77b352f534626c6e69c/1543042944035/WhatsApp+Image+2018-11-24+at+11.33.48.jpeg" data-image-dimensions="1143x1280" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bf8f77b352f534626c6e69c" data-type="image" data-parent-ratio="1.0" style="left: 0px; top: -14.3832px; width: 240px; height: 268.766px; position: relative;" alt="WhatsApp Image 2018-11-24 at 11.33.48.jpeg" data-image-resolution="300w" src="/WhatsApp+Image+2018-11-24+at+11.33.48.jpeg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_272">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78388251b85d9e95b44/1543042951477/WhatsApp+Image+2018-11-24+at+11.40.19.jpeg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_408">
+                  <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78388251b85d9e95b44/1543042951477/WhatsApp+Image+2018-11-24+at+11.40.19.jpeg" alt="WhatsApp Image 2018-11-24 at 11.40.19.jpeg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78388251b85d9e95b44/1543042951477/WhatsApp+Image+2018-11-24+at+11.40.19.jpeg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78388251b85d9e95b44/1543042951477/WhatsApp+Image+2018-11-24+at+11.40.19.jpeg" data-image-dimensions="1254x1280" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bf8f78388251b85d9e95b44" data-type="image" data-parent-ratio="1.0" style="left: 0px; top: -2.48804px; width: 240px; height: 244.976px; position: relative;" alt="WhatsApp Image 2018-11-24 at 11.40.19.jpeg" data-image-resolution="300w" src="/WhatsApp+Image+2018-11-24+at+11.40.19.jpeg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_273">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78521c67c5581e48164/1543042952736/WhatsApp+Image+2018-11-24+at+11.41.57.jpeg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_414">
+                  <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78521c67c5581e48164/1543042952736/WhatsApp+Image+2018-11-24+at+11.41.57.jpeg" alt="WhatsApp Image 2018-11-24 at 11.41.57.jpeg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78521c67c5581e48164/1543042952736/WhatsApp+Image+2018-11-24+at+11.41.57.jpeg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f78521c67c5581e48164/1543042952736/WhatsApp+Image+2018-11-24+at+11.41.57.jpeg" data-image-dimensions="1280x846" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bf8f78521c67c5581e48164" data-type="image" data-parent-ratio="1.0" style="left: -61.5603px; top: -1.42109e-14px; width: 363.121px; height: 240px; position: relative;" alt="WhatsApp Image 2018-11-24 at 11.41.57.jpeg" data-image-resolution="500w" src="/WhatsApp+Image+2018-11-24+at+11.41.57.jpeg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_274">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f9530ebbe88c3392556b/1543043414938/imageedit_13_2689977232.jpg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_420">
+                  <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f9530ebbe88c3392556b/1543043414938/imageedit_13_2689977232.jpg" alt="imageedit_13_2689977232.jpg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f9530ebbe88c3392556b/1543043414938/imageedit_13_2689977232.jpg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f9530ebbe88c3392556b/1543043414938/imageedit_13_2689977232.jpg" data-image-dimensions="1212x909" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bf8f9530ebbe88c3392556b" data-type="image" data-parent-ratio="1.0" style="left: -40px; top: 0px; width: 320px; height: 240px; position: relative;" alt="imageedit_13_2689977232.jpg" data-image-resolution="500w" src="/imageedit_13_2689977232.jpg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_275">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f8dc88251b85d9e96430/1543043294641/AA+explaining+Journey+Map.jpg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_426">
+                  <noscript><img src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f8dc88251b85d9e96430/1543043294641/AA+explaining+Journey+Map.jpg" alt="AA explaining Journey Map.jpg" /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f8dc88251b85d9e96430/1543043294641/AA+explaining+Journey+Map.jpg" data-image="https://static1.squarespace.com/static/5ba344e18f5130f397b0604d/5bf8f778b8a045b4c01eceef/5bf8f8dc88251b85d9e96430/1543043294641/AA+explaining+Journey+Map.jpg" data-image-dimensions="1080x1080" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5bf8f8dc88251b85d9e96430" data-type="image" data-parent-ratio="1.0" style="left: 0px; top: 0px; width: 240px; height: 240px; position: relative;" alt="AA explaining Journey Map.jpg" data-image-resolution="300w" src="/AA+explaining+Journey+Map.jpg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1559818766272_276">
+              <div class="margin-wrapper">
+                <a data-title="" data-description="" data-lightbox-theme="dark" href="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550217887897-05QOPONTD7Y6SG8M9BPI/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/IMG_20181226_113534.jpg" class="image-slide-anchor content-fill" style="overflow: hidden;" id="yui_3_17_2_1_1559818766272_432">
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550217887897-05QOPONTD7Y6SG8M9BPI/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/IMG_20181226_113534.jpg" alt="IMG_20181226_113534.jpg" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550217887897-05QOPONTD7Y6SG8M9BPI/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/IMG_20181226_113534.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5ba344e18f5130f397b0604d/1550217887897-05QOPONTD7Y6SG8M9BPI/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/IMG_20181226_113534.jpg" data-image-dimensions="2500x2500" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5c66728a4785d3840e6c854e" data-type="image" data-parent-ratio="1.0" style="left: 0px; top: 0px; width: 240px; height: 240px; position: relative;" alt="IMG_20181226_113534.jpg" data-image-resolution="300w" src="/IMG_20181226_113534.jpg">
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+    
+  </div>
+
+  
+
+</div>
+
+
+
+
+<style type="text/css" id="design-grid-css">
+#block-yui_3_17_2_1_1543042763536_7635 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; }
+#block-yui_3_17_2_1_1543042763536_7635 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
+</style>
+
+
+
+</div></div></div></div></div>
+      </div>
+    </div>
+  </div>
+        </div><!--
+        -->
+        
+      </main>
+
+      <div id="preFooter" class="unscrolled">
+        <div class="pre-footer-inner">
+          <div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="Pre-Footer Content" data-type="block-field" data-updated-on="1538105326411" id="preFooterBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+        </div>
+      </div>
+
+      <footer id="footer" role="contentinfo">
+        <div class="footer-inner">
+          <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="https://www.schooloffuture.in/about-us#header">Back to Top</a></div></nav></div>
+          
+
+
+          
+          <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1542026080422" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1542025413484_20113"><div class="sqs-block-content">
+
+<div class="sqs-svg-icon--outer social-icon-alignment-center social-icons-color-black social-icons-size-small social-icons-style-regular ">
+  <nav class="sqs-svg-icon--list">
+    <a href="https://medium.com/@aditiagrawal_49691" target="_blank" class="sqs-svg-icon--wrapper medium">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#medium-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#medium-mask"></use>
+        </svg>
+      </div>
+    </a><a href="http://instagram.com/_schooloffuture" target="_blank" class="sqs-svg-icon--wrapper instagram">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#instagram-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#instagram-mask"></use>
+        </svg>
+      </div>
+    </a>
+  </nav>
+</div></div></div></div></div></div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="/site-bundle.js.download" type="text/javascript"></script>
+    <script type="text/javascript" data-sqs-type="imageloader-bootstrapper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap({}, document); }})();</script><script>Squarespace.afterBodyLoad(Y);</script><svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none"><symbol id="medium-icon" viewBox="0 0 64 64"><path d="M46.908,23.95c-0.006-0.005-0.011-0.01-0.018-0.014l-0.01-0.005l-9.05-4.525c-0.061-0.031-0.125-0.051-0.19-0.068c-0.082-0.021-0.165-0.034-0.249-0.034c-0.347,0-0.692,0.174-0.878,0.477l-5.21,8.467l6.538,10.625l9.095-14.779C46.966,24.046,46.952,23.985,46.908,23.95z M28.433,35.958L37,40.241L28.433,26.32V35.958zM38.287,40.884l7.052,3.526C46.256,44.869,47,44.548,47,43.693V26.726L38.287,40.884z M26.946,23.964l-8.839-4.419c-0.16-0.08-0.312-0.118-0.449-0.118c-0.387,0-0.659,0.299-0.659,0.802v19.083c0,0.511,0.374,1.116,0.831,1.344l7.785,3.892c0.2,0.1,0.39,0.147,0.561,0.147c0.484,0,0.823-0.374,0.823-1.003V24.051C27,24.014,26.979,23.98,26.946,23.964z"></path></symbol><symbol id="medium-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M27,43.693c0,0.628-0.339,1.003-0.823,1.003c-0.172,0-0.362-0.047-0.561-0.147l-7.785-3.892C17.374,40.428,17,39.823,17,39.312V20.229c0-0.503,0.271-0.802,0.659-0.802c0.137,0,0.289,0.038,0.449,0.118l8.839,4.419C26.979,23.98,27,24.014,27,24.051V43.693z M28.433,35.958V26.32L37,40.241L28.433,35.958z M31.303,28.248l5.21-8.467c0.187-0.303,0.532-0.477,0.878-0.477c0.084,0,0.167,0.013,0.249,0.034c0.065,0.017,0.129,0.038,0.19,0.068l9.05,4.525l0.01,0.005c0.007,0.003,0.012,0.009,0.018,0.014c0.043,0.034,0.058,0.095,0.028,0.145l-9.095,14.779L31.303,28.248z M47,43.693c0,0.855-0.744,1.176-1.661,0.717l-7.052-3.526L47,26.726V43.693z"></path></symbol><symbol id="instagram-icon" viewBox="0 0 64 64"><path d="M46.91,25.816c-0.073-1.597-0.326-2.687-0.697-3.641c-0.383-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.67-1.347-2.657-1.73c-0.954-0.371-2.045-0.624-3.641-0.697C36.585,17.017,36.074,17,32,17s-4.585,0.017-6.184,0.09c-1.597,0.073-2.687,0.326-3.641,0.697c-0.986,0.383-1.823,0.896-2.657,1.73c-0.834,0.834-1.347,1.67-1.73,2.657c-0.371,0.954-0.624,2.045-0.697,3.641C17.017,27.415,17,27.926,17,32c0,4.074,0.017,4.585,0.09,6.184c0.073,1.597,0.326,2.687,0.697,3.641c0.383,0.986,0.896,1.823,1.73,2.657c0.834,0.834,1.67,1.347,2.657,1.73c0.954,0.371,2.045,0.624,3.641,0.697C27.415,46.983,27.926,47,32,47s4.585-0.017,6.184-0.09c1.597-0.073,2.687-0.326,3.641-0.697c0.986-0.383,1.823-0.896,2.657-1.73c0.834-0.834,1.347-1.67,1.73-2.657c0.371-0.954,0.624-2.045,0.697-3.641C46.983,36.585,47,36.074,47,32S46.983,27.415,46.91,25.816z M44.21,38.061c-0.067,1.462-0.311,2.257-0.516,2.785c-0.272,0.7-0.597,1.2-1.122,1.725c-0.525,0.525-1.025,0.85-1.725,1.122c-0.529,0.205-1.323,0.45-2.785,0.516c-1.581,0.072-2.056,0.087-6.061,0.087s-4.48-0.015-6.061-0.087c-1.462-0.067-2.257-0.311-2.785-0.516c-0.7-0.272-1.2-0.597-1.725-1.122c-0.525-0.525-0.85-1.025-1.122-1.725c-0.205-0.529-0.45-1.323-0.516-2.785c-0.072-1.582-0.087-2.056-0.087-6.061s0.015-4.48,0.087-6.061c0.067-1.462,0.311-2.257,0.516-2.785c0.272-0.7,0.597-1.2,1.122-1.725c0.525-0.525,1.025-0.85,1.725-1.122c0.529-0.205,1.323-0.45,2.785-0.516c1.582-0.072,2.056-0.087,6.061-0.087s4.48,0.015,6.061,0.087c1.462,0.067,2.257,0.311,2.785,0.516c0.7,0.272,1.2,0.597,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.529,0.45,1.323,0.516,2.785c0.072,1.582,0.087,2.056,0.087,6.061S44.282,36.48,44.21,38.061z M32,24.297c-4.254,0-7.703,3.449-7.703,7.703c0,4.254,3.449,7.703,7.703,7.703c4.254,0,7.703-3.449,7.703-7.703C39.703,27.746,36.254,24.297,32,24.297z M32,37c-2.761,0-5-2.239-5-5c0-2.761,2.239-5,5-5s5,2.239,5,5C37,34.761,34.761,37,32,37z M40.007,22.193c-0.994,0-1.8,0.806-1.8,1.8c0,0.994,0.806,1.8,1.8,1.8c0.994,0,1.8-0.806,1.8-1.8C41.807,22.999,41.001,22.193,40.007,22.193z"></path></symbol><symbol id="instagram-mask" viewBox="0 0 64 64"><path d="M43.693,23.153c-0.272-0.7-0.597-1.2-1.122-1.725c-0.525-0.525-1.025-0.85-1.725-1.122c-0.529-0.205-1.323-0.45-2.785-0.517c-1.582-0.072-2.056-0.087-6.061-0.087s-4.48,0.015-6.061,0.087c-1.462,0.067-2.257,0.311-2.785,0.517c-0.7,0.272-1.2,0.597-1.725,1.122c-0.525,0.525-0.85,1.025-1.122,1.725c-0.205,0.529-0.45,1.323-0.516,2.785c-0.072,1.582-0.087,2.056-0.087,6.061s0.015,4.48,0.087,6.061c0.067,1.462,0.311,2.257,0.516,2.785c0.272,0.7,0.597,1.2,1.122,1.725s1.025,0.85,1.725,1.122c0.529,0.205,1.323,0.45,2.785,0.516c1.581,0.072,2.056,0.087,6.061,0.087s4.48-0.015,6.061-0.087c1.462-0.067,2.257-0.311,2.785-0.516c0.7-0.272,1.2-0.597,1.725-1.122s0.85-1.025,1.122-1.725c0.205-0.529,0.45-1.323,0.516-2.785c0.072-1.582,0.087-2.056,0.087-6.061s-0.015-4.48-0.087-6.061C44.143,24.476,43.899,23.682,43.693,23.153z M32,39.703c-4.254,0-7.703-3.449-7.703-7.703s3.449-7.703,7.703-7.703s7.703,3.449,7.703,7.703S36.254,39.703,32,39.703z M40.007,25.793c-0.994,0-1.8-0.806-1.8-1.8c0-0.994,0.806-1.8,1.8-1.8c0.994,0,1.8,0.806,1.8,1.8C41.807,24.987,41.001,25.793,40.007,25.793z M0,0v64h64V0H0z M46.91,38.184c-0.073,1.597-0.326,2.687-0.697,3.641c-0.383,0.986-0.896,1.823-1.73,2.657c-0.834,0.834-1.67,1.347-2.657,1.73c-0.954,0.371-2.044,0.624-3.641,0.697C36.585,46.983,36.074,47,32,47s-4.585-0.017-6.184-0.09c-1.597-0.073-2.687-0.326-3.641-0.697c-0.986-0.383-1.823-0.896-2.657-1.73c-0.834-0.834-1.347-1.67-1.73-2.657c-0.371-0.954-0.624-2.044-0.697-3.641C17.017,36.585,17,36.074,17,32c0-4.074,0.017-4.585,0.09-6.185c0.073-1.597,0.326-2.687,0.697-3.641c0.383-0.986,0.896-1.823,1.73-2.657c0.834-0.834,1.67-1.347,2.657-1.73c0.954-0.371,2.045-0.624,3.641-0.697C27.415,17.017,27.926,17,32,17s4.585,0.017,6.184,0.09c1.597,0.073,2.687,0.326,3.641,0.697c0.986,0.383,1.823,0.896,2.657,1.73c0.834,0.834,1.347,1.67,1.73,2.657c0.371,0.954,0.624,2.044,0.697,3.641C46.983,27.415,47,27.926,47,32C47,36.074,46.983,36.585,46.91,38.184z M32,27c-2.761,0-5,2.239-5,5s2.239,5,5,5s5-2.239,5-5S34.761,27,32,27z"></path></symbol></svg>
+
+  
+
+</div>
